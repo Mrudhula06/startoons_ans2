@@ -54,12 +54,12 @@ const Profile = () => {
                         <Text style={{ color: '#FFFFFF' }}>Goal reached</Text>
                     </div>
                 </Col>
-                <Col span={10}>
+                {/* <Col span={10}>
                     <Space direction="vertical" className="emg-rom">
                         <Text>EMG</Text>
                         <Text>ROM</Text>
                     </Space>
-                </Col>
+                </Col> */}
             </Row>
 
             <Row gutter={[16, 16]} className="contact-info">

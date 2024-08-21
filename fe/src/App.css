@@ -9,7 +9,7 @@
 
 .goal-container {
     margin-top: 20px;
-    background-color: #ffffff; /* Dark grey background for goal */
+    background-color: #ffffff; /* White background for goal section */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -22,7 +22,6 @@
 
 .contact-info span, .medical-info span {
     display: block;
-    margin-bottom: 10px;
     color: #FFFFFF; /* White text color */
 }
 
@@ -33,7 +32,7 @@
 
 /* Customize progress color */
 .custom-progress .ant-progress-inner {
-    background-color: #faf4f4; /* Dark grey background for progress */
+    background-color: #faf4f4; /* Light grey background for progress */
 }
 
 .custom-progress .ant-progress-bg {
@@ -52,12 +51,38 @@
     color: #FFFFFF; /* White text color */
 }
 
-/* Rotate the phone icon and move it to the extreme left */
+/* Icon alignment and text styling */
+.contact-info .anticon {
+    margin-right: 8px; /* Space between icon and text */
+    color: #FFFFFF; /* White color for the icon */
+}
+
+.contact-info span {
+    display: block;
+    color: #FFFFFF; /* White text color */
+}
+
+/* Medical info styling */
+.medical-info span {
+    display: block;
+    color: #FFFFFF; /* White text color */
+}
+
+/* Chart container styling */
+.chart-container {
+    margin-bottom: 20px;
+}
+
+.chart-container .recharts-wrapper {
+    background-color: #edf0f3; /* Dark background for chart area */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Align the phone icon to the left */
 .anticon-phone {
     transform: rotate(90deg);
-    display: inline-block;
-    margin-right: 0px; /* Set margin-right to 0px to move the icon to the extreme left */
-    margin-left: -8px; /* Optional: Adjust margin-left if you want to pull it even further to the left */
+    margin-right: 4px; /* Space between icon and text */
     color: #FFFFFF; /* White color for the icon */
 }
 
@@ -67,7 +92,7 @@
     color: #FFFFFF; /* White text color */
 }
 
-.emg-rom {
-    text-align: center;
-    color: #FFFFFF; /* White text color */
+/* Align email and phone info */
+.contact-info .anticon-mail {
+    margin-right: 8px; /* Space between icon and text */
 }
